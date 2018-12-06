@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F67216B21B87DB9008D1969 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F67216A21B87DB9008D1969 /* AppDelegate.swift */; };
-		5F67216D21B87DB9008D1969 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F67216C21B87DB9008D1969 /* ViewController.swift */; };
+		5F67216D21B87DB9008D1969 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F67216C21B87DB9008D1969 /* TodoListViewController.swift */; };
 		5F67217021B87DB9008D1969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F67216E21B87DB9008D1969 /* Main.storyboard */; };
 		5F67217221B87DB9008D1969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F67217121B87DB9008D1969 /* Assets.xcassets */; };
 		5F67217521B87DB9008D1969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F67217321B87DB9008D1969 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		5F67216721B87DB9008D1969 /* Tu-du.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tu-du.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F67216A21B87DB9008D1969 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F67216C21B87DB9008D1969 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F67216C21B87DB9008D1969 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		5F67216F21B87DB9008D1969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F67217121B87DB9008D1969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F67217421B87DB9008D1969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				5F67216A21B87DB9008D1969 /* AppDelegate.swift */,
-				5F67216C21B87DB9008D1969 /* ViewController.swift */,
+				5F67216C21B87DB9008D1969 /* TodoListViewController.swift */,
 				5F67216E21B87DB9008D1969 /* Main.storyboard */,
 				5F67217121B87DB9008D1969 /* Assets.xcassets */,
 				5F67217321B87DB9008D1969 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F67216D21B87DB9008D1969 /* ViewController.swift in Sources */,
+				5F67216D21B87DB9008D1969 /* TodoListViewController.swift in Sources */,
 				5F67216B21B87DB9008D1969 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.strahinjaljaljevic.Tu-du";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.strahinjaljaljevic.Tu-du";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
